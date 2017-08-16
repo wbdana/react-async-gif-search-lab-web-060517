@@ -3,9 +3,6 @@ import React from 'react'
 import GifSearch from '../components/GifSearch'
 import GifList from '../components/GifList'
 
-const URL = 'http://api.giphy.com/v1/gifs/search?q='
-const KEY = '&api_key=dc6zaTOxFJmzC&limit=3'
-
 export default class GifListContainer extends React.Component {
   constructor(props) {
     super(props)
